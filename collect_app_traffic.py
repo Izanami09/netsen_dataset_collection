@@ -23,7 +23,7 @@ except ImportError:
 
 import argparse
 
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data_v2", "app_traffic")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data_v3", "app_traffic")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 WINDOW_SIZE = 2.0
